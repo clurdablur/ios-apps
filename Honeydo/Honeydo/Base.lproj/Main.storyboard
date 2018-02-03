@@ -33,7 +33,14 @@
                             <outlet property="delegate" destination="SCx-73-Hqw" id="2oi-bk-Y7E"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Honeydo" id="xoe-LM-bIh"/>
+                    <navigationItem key="navigationItem" title="Honeydo" id="xoe-LM-bIh">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uaQ-zk-k3V">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="SCx-73-Hqw" id="CYi-fE-3NY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pc2-Q3-Exy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
