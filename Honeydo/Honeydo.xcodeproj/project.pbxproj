@@ -12,6 +12,7 @@
 		A4EA09C120251B4C00A385FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA09BF20251B4C00A385FE /* Main.storyboard */; };
 		A4EA09C320251B4C00A385FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EA09C220251B4C00A385FE /* Assets.xcassets */; };
 		A4EA09C620251B4C00A385FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA09C420251B4C00A385FE /* LaunchScreen.storyboard */; };
+		A4EA09CE20265F2C00A385FE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA09CD20265F2C00A385FE /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A4EA09C220251B4C00A385FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4EA09C520251B4C00A385FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EA09C720251B4C00A385FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EA09CD20265F2C00A385FE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		A4EA09BA20251B4B00A385FE /* Honeydo */ = {
 			isa = PBXGroup;
 			children = (
+				A4EA09D02026658E00A385FE /* Controllers */,
+				A4EA09CF2026657500A385FE /* Data Model */,
 				A4EA09BB20251B4B00A385FE /* AppDelegate.swift */,
-				A4EA09BD20251B4C00A385FE /* HoneydoViewController.swift */,
-				A4EA09BF20251B4C00A385FE /* Main.storyboard */,
-				A4EA09C220251B4C00A385FE /* Assets.xcassets */,
-				A4EA09C420251B4C00A385FE /* LaunchScreen.storyboard */,
+				A4EA09D12026661B00A385FE /* Views */,
+				A4EA09D22026663000A385FE /* Supporting Files */,
 				A4EA09C720251B4C00A385FE /* Info.plist */,
 			);
 			path = Honeydo;
+			sourceTree = "<group>";
+		};
+		A4EA09CF2026657500A385FE /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA09CD20265F2C00A385FE /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		A4EA09D02026658E00A385FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA09BD20251B4C00A385FE /* HoneydoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4EA09D12026661B00A385FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA09BF20251B4C00A385FE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4EA09D22026663000A385FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA09C220251B4C00A385FE /* Assets.xcassets */,
+				A4EA09C420251B4C00A385FE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EA09BE20251B4C00A385FE /* HoneydoViewController.swift in Sources */,
+				A4EA09CE20265F2C00A385FE /* Item.swift in Sources */,
 				A4EA09BC20251B4B00A385FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
